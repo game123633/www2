@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script type='text/javascript' src="java/jquery-3.1.1.js"></script>
+	<link href="CSS/stylesheet.css" type="text/css" rel="stylesheet">
+	<script src="java/jscript.js"></script>
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+	<meta charset="UTF-8">
+	<title>Anketa</title>
+</head>
+<body>
+<div id="filler"></div>
+
+<!--<div class="temuizvele"></div>-->
+
+<div id="wrapper">
+
+	<div id="header">
+		<div>
+			<a href="index.html"><img src="images/logo.png"></a>
+		</div>
+			<div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">IZVĒLE</button>
+                        <div id="myDropdown" class="dropdown-content">
+                        	<a href="8klase.html">8.klase</a>
+                        	<a href="#">9.klase</a>
+                        	<a href="#">10.klase</a>
+                        	<a href="#">11.klase</a>
+                        	<a href="#">12.klase</a>
+                        	<a href="CV.html">Par mani </a>
+                        	<a href="Kontakti.html">Kontakti</a>
+                        	<a href="Anketa.html">Anketa</a>
+                        	<a href="Galerija.html">Galerija</a>
+                        </div>
+                </div>
+		</div>
+
+	<div id="content">
+		<form id="form">
+			Vārds: <input type="text" name="Vārds" value=""><br>
+			Uzvārds: <input type="text" name="Uzvārds" value="">
+			<br><br>
+			Dzimums:
+			<br>
+			<label for="Vīrietis">Vīrietis</label>
+				<input type="radio" name="Dzimums" id="Vīrietis" value="Vīrietis"><br>
+  			<label for="Sieviete">Sieviete</label>
+ 				<input type="radio" name="Dzimums" id="Sieviete" value="Sieviete">
+ 			<br><br>
+  			Klase:
+			<select name="klase">
+    			<option value="8">8.klase</option>
+				<option value="9">9.klase</option>
+   	 			<option value="10">10.klase</option>
+    			<option value="11">11.klase</option>
+    			<option value="12">12.klase</option>
+  			</select>
+  			<br><br>
+  			<textarea name="ziņa" rows="10" cols="30">Nosūti ziņu.</textarea>
+  			<br><br>
+  			<label><input type="checkbox" id="cbox1" value="checkbox1">izvēle1</label>
+  			<br>
+  			<label><input type="checkbox" id="cbox2" value="checkbox2">izvēle2</label>
+  			<br>
+  			<label><input type="checkbox" id="cbox3" value="checkbox3">izvēle3</label>
+  			<br><br>
+  			<input type="submit" value="Submit">
+  		</form>
+		</div>
+</div>
+
+	
+</body>
+</html>
